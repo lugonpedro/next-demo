@@ -33,13 +33,13 @@ export function Navbar() {
         </Link>
         {opened || (
           <HiMenu
-            className="h-10 w-10 text-black md:hidden"
+            className="h-10 w-10 text-[#535494] md:hidden"
             onClick={() => setOpened(true)}
           />
         )}
         {opened && (
           <IoMdClose
-            className="h-10 w-10 text-black md:hidden"
+            className="h-10 w-10 text-[#535494] md:hidden"
             onClick={() => setOpened(false)}
           />
         )}
