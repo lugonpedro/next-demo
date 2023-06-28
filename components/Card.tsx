@@ -9,13 +9,13 @@ type Props = {
 
 export function PeopleCard({ image, name, position }: Props) {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <Image
         src={image}
         alt="People Photo"
         width={500}
         height={500}
-        className="rounded-full"
+        className="rounded-full w-1/2 max-w-[400px]"
       />
       <p className="text-[22px] mt-2 font-semibold text-[#535494] text-center">
         {name}

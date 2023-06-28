@@ -21,5 +21,5 @@ html {
 }
 
 .button {
-  @apply text-[18px] py-2 w-[250px] rounded-2xl font-semibold duration-300;
+  @apply text-[18px] py-2 px-4 md:w-[250px] rounded-2xl font-semibold duration-300;
 }

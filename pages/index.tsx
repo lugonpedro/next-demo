@@ -26,6 +26,7 @@ export default function Home() {
         <Header />
         <Message />
         <Team />
+
         <div className="xl:flex xl:flex-row">
           <Disclaimer className="bg-white text-center py-8 xl:w-[50vw]">
             <h3 className="subtitle text-[#EE885C] mb-4">
@@ -39,33 +40,33 @@ export default function Home() {
             </button>
           </Disclaimer>
           <Disclaimer className="bg-[#EE885C] text-center py-8 xl:w-[50vw]">
-            <div className="flex flex-row items-center justify-center">
-              <AiOutlineArrowRight className="h-12 w-12 text-white" />
-              <p className="text text-white text-start max-w-[300px]">
+            <div className="flex flex-row items-center ml-4">
+              <AiOutlineArrowRight className="h-8 w-8 text-white" />
+              <p className="text text-white text-start w-[80%]">
                 Descobrir o que seus representantes eleitos estão fazendo;
               </p>
             </div>
-            <div className="flex flex-row items-center justify-center mt-4">
-              <AiOutlineArrowRight className="h-12 w-12 text-white" />
-              <p className="text text-white text-start max-w-[300px]">
+            <div className="flex flex-row items-center ml-4 mt-4">
+              <AiOutlineArrowRight className="h-8 w-8 text-white" />
+              <p className="text text-white text-start w-[80%]">
                 Se posicionar a favor, contra ou de forma neutra;
               </p>
             </div>
-            <div className="flex flex-row items-center justify-center mt-4">
-              <AiOutlineArrowRight className="h-12 w-12 text-white" />
-              <p className="text text-white text-start max-w-[300px]">
+            <div className="flex flex-row items-center ml-4 mt-4">
+              <AiOutlineArrowRight className="h-8 w-8 text-white" />
+              <p className="text text-white text-start w-[80%]">
                 Acompanhar todos os gastos públicos dos parlamentares;
               </p>
             </div>
-            <div className="flex flex-row items-center justify-center mt-4">
-              <AiOutlineArrowRight className="h-12 w-12 text-white" />
-              <p className="text text-white text-start max-w-[300px]">
+            <div className="flex flex-row items-center ml-4 mt-4">
+              <AiOutlineArrowRight className="h-8 w-8 text-white" />
+              <p className="text text-white text-start w-[80%]">
                 Saber como o seu parlamentar votou em determinada sessão;
               </p>
             </div>
-            <div className="flex flex-row items-center justify-center mt-4">
-              <AiOutlineArrowRight className="h-12 w-12 text-white" />
-              <p className="text text-white text-start max-w-[300px]">
+            <div className="flex flex-row items-center ml-4 mt-4">
+              <AiOutlineArrowRight className="h-8 w-8 text-white" />
+              <p className="text text-white text-start w-[80%]">
                 Ter seus próprios rankings dos políticos e partidos que melhor
                 te representam.
               </p>

@@ -7,7 +7,7 @@ type Props = {};
 
 export default function Footer({}: Props) {
   return (
-    <div className="w-screen flex flex-col items-center py-8">
+    <div className="w-full flex flex-col items-center py-8 overflow-hidden">
       <motion.div
         initial={{ x: 200, opacity: 0 }}
         transition={{ duration: 1 }}
