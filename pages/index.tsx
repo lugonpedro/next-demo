@@ -3,14 +3,15 @@ import { Navbar } from "@/components/Navbar";
 import Header from "@/sections/Header";
 import Message from "@/sections/Message";
 import Team from "@/sections/Team";
-import Footer from "@/components/Footer";
 import Disclaimer from "@/sections/Disclaimer";
+import Footer from "@/components/Footer";
 
 import Image from "next/image";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 import mockImage from "@/assets/mock2.png";
+import howImage from "@/assets/how.png";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
         <Team />
 
         <div className="xl:flex xl:flex-row">
-          <Disclaimer className="bg-white text-center py-8 xl:w-[50vw]">
+          <Disclaimer className="bg-white text-center py-8 xl:items-end">
             <h3 className="subtitle text-[#EE885C] mb-4">
               O que você pode fazer com o{" "}
               <span className="underline decoration-[#EE885C]">
@@ -39,7 +40,7 @@ export default function Home() {
               Fale conosco
             </button>
           </Disclaimer>
-          <Disclaimer className="bg-[#EE885C] text-center py-8 xl:w-[50vw]">
+          <Disclaimer className="bg-[#EE885C] text-center py-8 xl:items-start">
             <div className="flex flex-row items-center ml-4">
               <AiOutlineArrowRight className="h-8 w-8 text-white" />
               <p className="text text-white text-start w-[80%]">
@@ -75,7 +76,7 @@ export default function Home() {
         </div>
 
         <div className="xl:flex xl:flex-row">
-          <Disclaimer className="bg-[#535494] text-center py-8 xl:w-[50vw]">
+          <Disclaimer className="bg-[#535494] text-center py-8 xl:items-end">
             <h3 className="subtitle text-white mb-4">O nosso feed</h3>
             <p className="text text-white">
               O Democracia Beta também possui um feed que mostra gastos,
@@ -84,7 +85,7 @@ export default function Home() {
               o tema antes de saber quem é o político.
             </p>
           </Disclaimer>
-          <Disclaimer className="bg-white text-center py-8 xl:w-[50vw]">
+          <Disclaimer className="bg-white text-center py-8 xl:items-start">
             <Image src={mockImage} alt="Mock Image" />
             <p className="text text-[#535494]">
               Com o intuito de não influenciar na sua avaliação do ato,
@@ -95,11 +96,11 @@ export default function Home() {
         </div>
 
         <div className="xl:flex xl:flex-row">
-          <Disclaimer className="bg-white text-center py-8 xl:w-[50vw]">
+          <Disclaimer className="bg-white text-center py-8 xl:items-end">
             <h3 className="subtitle text-[#EE885C] mb-4">Como funciona?</h3>
-            <Image src={mockImage} alt="Mock Image" />
+            <Image src={howImage} alt="Girl with doubts" />
           </Disclaimer>
-          <Disclaimer className="bg-[#EE885C] py-8 text-start xl:w-[50vw]">
+          <Disclaimer className="bg-[#EE885C] py-8 text-start xl:items-start">
             <p className="text text-white mb-4">
               O nosso aplicativo é gratuito e está disponível tanto para
               Android, quanto para IOS. Após a instalação, o usuário precisará

@@ -6,7 +6,7 @@ type Props = {};
 
 export default function Message({}: Props) {
   return (
-    <div className="bg-[#C2D3E7] py-8">
+    <div className="bg-[#C2D3E7] py-8 xl:flex xl:flex-col xl:items-center">
       <div className="md:hidden">
         <h2 className="title text-[#535494] uppercase mb-4">
           Participe da política do seu estado
@@ -30,7 +30,7 @@ export default function Message({}: Props) {
           </span>
         </p>
       </div>
-      <div className="hidden bg-white rounded-2xl mx-12 md:block">
+      <div className="hidden bg-white rounded-2xl mx-12 md:block max-w-[1200px]">
         <h2 className="title text-[#EE885C] uppercase underline decoration-8 decoration-[#EE885C]/50 py-4">
           Participe da política do seu estado
         </h2>

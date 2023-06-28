@@ -13,8 +13,8 @@ export function Navbar() {
   const [opened, setOpened] = useState<boolean>(false);
 
   return (
-    <div className="bg-white w-full">
-      <div className="flex flex-row items-center justify-between px-6 py-4">
+    <div className="bg-white w-full md:flex md:flex-col md:items-center md:justify-center">
+      <div className="flex flex-row items-center justify-between px-6 py-4 w-full max-w-[1200px]">
         <Image src={logoIcon} alt="Logo" width={50} height={50} />
         <div className="hidden md:flex flex-row items-center gap-6">
           <Scroll
@@ -22,17 +22,26 @@ export function Navbar() {
             spy={true}
             smooth={true}
             duration={500}
-            className="text-black text-lg"
+            className="text-black text-lg font-semibold cursor-pointer hover:text-[#535494] duration-300"
           >
             Equipe
           </Scroll>
-          <Link href="#" className="text-black text-lg">
+          <Link
+            href="https://www.democraciabeta.org/_files/ugd/4a34bc_dd7cbba146fa4ccf97746d52c6dd886f.pdf"
+            className="text-black text-lg font-semibold cursor-pointer hover:text-[#535494] duration-300"
+          >
             Estatuto
           </Link>
-          <Link href="#" className="text-black text-lg">
+          <Link
+            href="https://www.democraciabeta.org/_files/ugd/4a34bc_2cf3eac8c56a44a4b31a71f379ea3602.pdf"
+            className="text-black text-lg font-semibold cursor-pointer hover:text-[#535494] duration-300"
+          >
             Termos de Uso
           </Link>
-          <Link href="#" className="text-black text-lg">
+          <Link
+            href="https://www.democraciabeta.org/_files/ugd/4a34bc_ea0ccc133ddd46a791cc0d872242e533.pdf"
+            className="text-black text-lg font-semibold cursor-pointer hover:text-[#535494] duration-300"
+          >
             Política de Privacidade
           </Link>
         </div>
@@ -65,25 +74,25 @@ export function Navbar() {
               spy={true}
               smooth={true}
               duration={500}
-              className="text-black text-lg cursor-pointer"
+              className="text-black text-lg font-semibold cursor-pointer hover:text-[#535494] duration-300"
             >
               Equipe
             </Scroll>
             <Link
               href="https://www.democraciabeta.org/_files/ugd/4a34bc_dd7cbba146fa4ccf97746d52c6dd886f.pdf"
-              className="text-black text-lg"
+              className="text-black text-lg font-semibold cursor-pointer hover:text-[#535494] duration-300"
             >
               Estatuto
             </Link>
             <Link
               href="https://www.democraciabeta.org/_files/ugd/4a34bc_2cf3eac8c56a44a4b31a71f379ea3602.pdf"
-              className="text-black text-lg"
+              className="text-black text-lg font-semibold cursor-pointer hover:text-[#535494] duration-300"
             >
               Termos de Uso
             </Link>
             <Link
               href="https://www.democraciabeta.org/_files/ugd/4a34bc_ea0ccc133ddd46a791cc0d872242e533.pdf"
-              className="text-black text-lg"
+              className="text-black text-lg font-semibold cursor-pointer hover:text-[#535494] duration-300"
             >
               Política de Privacidade
             </Link>
